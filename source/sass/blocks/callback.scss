@@ -1,0 +1,149 @@
+.callback {
+  color: #ffffff;
+  background-color: #00b2ff;
+}
+
+.callback__lead {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 51px;
+}
+
+.callback__text {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 5px;
+
+  font-family: "PT Mono", "Andale Mono", monospace;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 22px;
+}
+
+.callback form {
+  margin-top: 49px;
+  margin-left: 5px;
+}
+
+// .callback__form {
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   margin-top: 49px;
+//   margin-left: 5px;
+// }
+
+// .callback__name-field {
+//   flex-grow: 1;
+// }
+
+// .callback__phone-field {
+//   margin-left: 31px;
+// }
+
+// .callback__question-field {
+//   width: 100%;
+//   min-height: 154px;
+//   margin-top: 40px;
+// }
+
+// .callback__submit-button {
+//   order: 5;
+
+//   min-width: 270px;
+//   margin-top: 45px;
+// }
+
+// .callback__checkbox-field {
+//   order: 10;
+
+//   width: calc(50% - 38px);
+//   max-width: 230px;
+//   margin-top: 38px;
+//   margin-left: 37px;
+// }
+
+@media (max-width: 1023px) {
+  .callback__lead {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .callback__text {
+    margin-top: 16px;
+  }
+
+  .callback form {
+    margin-top: 54px;
+  }
+
+  // .callback__form {
+  //   margin-top: 54px;
+  // }
+
+  // .callback__question-field {
+  //   min-height: 160px;
+  //   margin-top: 40px;
+  // }
+
+  // .callback__submit-button {
+  //   min-width: 280px;
+  //   margin-top: 46px;
+  //   padding: 15px;
+  // }
+
+  .callback__checkbox-field-icon {
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  // .callback__name-field {
+  //   width: 100%;
+  // }
+
+  .callback__lead {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .callback__text {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .callback form {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+
+  // .callback__form {
+  //   margin-top: 25px;
+  //   margin-left: 0;
+  // }
+
+  // .callback__phone-field {
+  //   margin-top: 32px;
+  //   margin-left: 0;
+  // }
+
+  // .callback__question-field {
+  //   min-height: 104px;
+  //   margin-top: 30px;
+  // }
+
+  // .callback__submit-button {
+  //   width: 100%;
+  //   margin-top: 31px;
+  // }
+
+  // .callback__checkbox-field {
+  //   margin-top: 20px;
+  //   margin-left: 0;
+  // }
+}

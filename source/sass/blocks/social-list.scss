@@ -1,0 +1,22 @@
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.social-list__item + .social-list__item {
+  margin-left: 15px;
+}
+
+.social-list__item svg {
+  color: #cdcdcd;
+}
+
+.social-list__item:hover svg {
+  color: #00b2ff;
+}

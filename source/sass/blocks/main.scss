@@ -1,0 +1,168 @@
+.main {
+  width: 100%;
+
+  background-image: url("../img/bg-about-us-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top 43px left;
+}
+
+.main__wrapper {
+  max-width: 1218px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.main__advantages {
+  padding-top: 109px;
+}
+
+.main__about-company {
+  margin-top: 110px;
+}
+
+.main__products-service {
+  max-width: 1220px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 88px;
+  padding-right: 25px;
+  padding-bottom: 127px;
+  padding-left: 25px;
+}
+
+.main__wrap-products-service {
+  margin-top: 106px;
+
+  background-color: #1b2d37;
+}
+
+.main__wrap-form {
+  margin-top: -5px;
+}
+
+.main__wrapper-form {
+  width: 100%;
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 91px;
+  padding-bottom: 115px;
+
+  background-color: #00b2ff;
+  background-image: url("../img/bg-form.svg");
+  background-repeat: no-repeat;
+  background-position: top -60px left 175px;
+}
+
+.main__inner-form {
+  max-width: calc(1170px + 25px + 25px);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  background-image: url("../img/plane-desktop@1x.png");
+  background-repeat: no-repeat;
+  background-position: top 70px left;
+  background-size: 42% auto;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/plane-desktop@2x.png");
+  }
+}
+
+.main__form {
+  max-width: 575px;
+  margin-left: auto;
+}
+
+@media (max-width: 1023px) {
+  .main {
+    background-image: url("../img/bg-about-us-tablet.svg");
+    background-position: top 242px right;
+  }
+
+  .main__advantages {
+    padding-top: 54px;
+  }
+
+  .main__about-company {
+    max-width: 767px;
+    margin-top: 60px;
+  }
+
+  .main__products-service {
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 78px;
+    padding-left: 25px;
+  }
+
+  .main__wrap-products-service {
+    margin-top: 76px;
+  }
+
+  .main__wrapper-form {
+    padding-top: 80px;
+    padding-bottom: 105px;
+
+    background-image: none;
+  }
+
+  .main__inner-form {
+    padding-right: 88px;
+    padding-left: 88px;
+
+    background-image: none;
+  }
+
+  .main__form {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    background-image: url("../img/bg-about-us-mobile.svg");
+    background-position: top 804px right;
+  }
+
+  .main__wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .main__advantages {
+    padding-top: 37px;
+  }
+
+  .main__wrapper-form {
+    padding-top: 30px;
+    padding-bottom: 43px;
+
+    background-image: none;
+  }
+
+  .main__products-service {
+    padding-top: 49px;
+    padding-right: 15px;
+    padding-bottom: 64px;
+    padding-left: 15px;
+  }
+
+  .main__wrap-products-service {
+    margin-top: 58px;
+  }
+
+  .main__inner-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .main__about-company {
+    margin-top: 52px;
+  }
+}

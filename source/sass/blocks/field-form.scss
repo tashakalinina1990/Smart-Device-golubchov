@@ -1,0 +1,48 @@
+.field-form {
+  display: flex;
+  flex-grow: 1;
+}
+
+.field-form input,
+.field-form textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 14px 16px;
+
+  color: #ffffff;
+  border: none;
+  background-color: rgba(#ffffff, 0.1);
+
+  font-family: "PT Mono", "Andale Mono", monospace;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 22px;
+  border-radius: 0;
+}
+
+.field-form textarea {
+  resize: none;
+}
+
+.field-form--size-big input,
+.field-form--size-big textarea {
+  padding: 14px 24px;
+}
+
+.field-form input:hover {
+  box-shadow: inset 0 0 0 1px #ffffff;
+}
+
+.field-form input::placeholder,
+.field-form textarea::placeholder {
+  color: #ffffff;
+
+  font-family: "PT Mono", "Andale Mono", monospace;
+}
+
+.field-form input:hover,
+.field-form textarea:hover {
+  box-shadow: inset 0 0 0 1px #ffffff;
+}

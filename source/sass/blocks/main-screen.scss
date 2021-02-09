@@ -1,0 +1,245 @@
+.main-screen {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 33px;
+  padding-bottom: 90px;
+
+  color: #ffffff;
+  background-color: #1b2d37;
+  background-image: url("../img/chip-desktop@1x.png"), url("../img/bg-header-desktop@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top 258px right 14%, center top;
+  background-size: 37%, cover;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/chip-desktop@2x.png"), url("../img/bg-header-desktop@2x.jpg");
+  }
+}
+
+.main-screen__wrap-top {
+  margin-left: 3px;
+}
+
+.main-screen__content {
+  position: relative;
+
+  max-width: 1470px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-bottom: 186px;
+  padding-left: 25px;
+}
+
+.main-screen__wrap-bottom {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 718px;
+  margin-top: 230px;
+}
+
+.main-screen__title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 94px;
+}
+
+.main-screen__description {
+  position: relative;
+
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding-left: 94px;
+
+  color: #ffffff;
+
+  font-family: "PT Mono", "Andale Mono", monospace;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 34px;
+}
+
+.main-screen__description::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0;
+
+  width: 66px;
+  height: 2px;
+
+  background-color: #ffffff;
+}
+
+.main-screen__button {
+  align-self: flex-start;
+
+  min-width: 407px;
+  margin-top: 47px;
+  margin-left: 97px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.main-screen__link {
+  position: absolute;
+  bottom: 37px;
+  left: -12px;
+
+  transform: rotate(-90deg);
+
+  opacity: 0.5;
+  color: #ffffff;
+
+  font-family: "PT Mono", "Andale Mono", monospace;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 16px;
+}
+
+.main-screen__link:hover {
+  opacity: 1;
+}
+
+.main-screen__button-text--show-mobile {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .main-screen {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 163px;
+
+    color: #ffffff;
+    background-color: #1b2d37;
+    background-image: url("../img/chip-tablet@1x.png"), url("../img/bg-header-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: top 113px right 0, center top;
+    background-size: 260px, cover;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/chip-tablet@2x.png"), url("../img/bg-header-tablet@2x.jpg");
+    }
+  }
+
+  .main-screen__content {
+    padding-right: 25px;
+    padding-bottom: 0;
+    padding-left: 25px;
+  }
+
+  .main-screen__wrap-bottom {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 427px;
+    margin-top: 115px;
+    margin-left: 65px;
+  }
+
+  .main-screen__title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .main-screen__description {
+    margin-top: 30px;
+    padding-left: 48px;
+
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .main-screen__description::before {
+    top: 15px;
+
+    width: 33px;
+  }
+
+  .main-screen__button {
+    min-width: 379px;
+    margin-top: 55px;
+    margin-left: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .main-screen__link {
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    width: 1px;
+    height: 1px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-screen {
+    padding-top: 17px;
+    padding-bottom: 70px;
+
+    background-image: url("../img/chip-mobile@1x.png"), url("../img/bg-header-mobile@1x.jpg");
+    background-position: top 92px right 0, center top;
+    background-size: 301px, cover;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/chip-mobile@2x.png"), url("../img/bg-header-mobile@2x.jpg");
+    }
+  }
+
+  .main-screen__content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .main-screen__wrap-bottom {
+    margin-top: 232px;
+    margin-left: 0;
+  }
+
+  .main-screen__title {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .main-screen__description {
+    margin-top: 25px;
+    padding-left: 51px;
+
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .main-screen__button {
+    min-width: 287px;
+    margin-top: 41px;
+  }
+
+  .main-screen__button-text {
+    display: none;
+  }
+
+  .main-screen__button-text--show-mobile {
+    display: block;
+  }
+}
